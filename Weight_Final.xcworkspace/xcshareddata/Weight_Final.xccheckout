@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>82A27CD8-4974-4D6E-8EA8-A21CEED56BF6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Weight_Final</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D8FB3080FC65808A587CC3A65674DD8DFA15D60A</key>
+		<string>https://github.com/zhaomizhi/Weight_iOS_Project.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Weight_Final.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D8FB3080FC65808A587CC3A65674DD8DFA15D60A</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhaomizhi/Weight_iOS_Project.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D8FB3080FC65808A587CC3A65674DD8DFA15D60A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D8FB3080FC65808A587CC3A65674DD8DFA15D60A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>final_project</string>
+		</dict>
+	</array>
+</dict>
+</plist>
