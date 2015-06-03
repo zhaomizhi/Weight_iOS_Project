@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7549" systemVersion="14D131" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Account" representedClassName="Account" syncable="YES">
+        <attribute name="goal" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="height" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="accountExtra" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AccountExtra" inverseName="account" inverseEntity="AccountExtra" syncable="YES"/>
+        <relationship name="weightRocrds" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="WeightRecord" inverseName="account" inverseEntity="WeightRecord" syncable="YES"/>
+    </entity>
+    <entity name="AccountExtra" representedClassName="AccountExtra" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="account" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Account" inverseName="accountExtra" inverseEntity="Account" syncable="YES"/>
+        <relationship name="weightRecords" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="WeightRecord" inverseName="accountOther" inverseEntity="WeightRecord" syncable="YES"/>
+    </entity>
+    <entity name="Entity" syncable="YES"/>
+    <entity name="WeightRecord" representedClassName="WeightRecord" syncable="YES">
+        <attribute name="recordDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="weight" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="account" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Account" inverseName="weightRocrds" inverseEntity="Account" syncable="YES"/>
+        <relationship name="accountOther" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="AccountExtra" inverseName="weightRecords" inverseEntity="AccountExtra" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Account" positionX="124" positionY="-81" width="128" height="148"/>
+        <element name="AccountExtra" positionX="297" positionY="99" width="128" height="103"/>
+        <element name="WeightRecord" positionX="-117" positionY="54" width="128" height="103"/>
+        <element name="Entity" positionX="99" positionY="54" width="128" height="45"/>
+    </elements>
+</model>

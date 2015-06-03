@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:SidebarDemo/WeightRecords.h">
+   </FileRef>
+   <FileRef
+      location = "group:SidebarDemo/WeightRecords.m">
+   </FileRef>
+   <FileRef
+      location = "group:SidebarDemo/CoreDataPetInfo.h">
+   </FileRef>
+   <FileRef
+      location = "group:SidebarDemo/CoreDataPetInfo.m">
+   </FileRef>
+   <FileRef
+      location = "group:SidebarDemo/CoreDataHostInfo.h">
+   </FileRef>
+   <FileRef
+      location = "group:SidebarDemo/CoreDataHostInfo.m">
+   </FileRef>
+   <FileRef
+      location = "group:Weight_Final.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
